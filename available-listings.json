@@ -1,0 +1,1347 @@
+[
+  {
+    "name": "LinkedData",
+    "item": [
+      {
+        "name": "Fetch",
+        "request": {
+          "auth": {
+            "type": "apikey",
+            "apikey": [
+              {
+                "key": "value",
+                "value": "Token 1c80f68e4730893c404738911cbb805f20c5a6e4",
+                "type": "string"
+              },
+              {
+                "key": "in",
+                "value": "header",
+                "type": "string"
+              },
+              {
+                "key": "key",
+                "value": "Authorization",
+                "type": "string"
+              }
+            ]
+          },
+          "method": "GET",
+          "header": [],
+          "url": {
+            "raw": "http://0.0.0.0:8007/portfolio-management/linked?id=1",
+            "protocol": "http",
+            "host": [
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "port": "8007",
+            "path": [
+              "portfolio-management",
+              "linked"
+            ],
+            "query": [
+              {
+                "key": "id",
+                "value": "1"
+              }
+            ]
+          }
+        },
+        "response": []
+      },
+      {
+        "name": "Delete",
+        "request": {
+          "auth": {
+            "type": "apikey",
+            "apikey": [
+              {
+                "key": "value",
+                "value": "Token b08d2a5ab1e43847cddebf5362e108c223171d5d",
+                "type": "string"
+              },
+              {
+                "key": "in",
+                "value": "header",
+                "type": "string"
+              },
+              {
+                "key": "key",
+                "value": "Authorization",
+                "type": "string"
+              }
+            ]
+          },
+          "method": "DELETE",
+          "header": [
+            {
+              "key": "id",
+              "value": "17",
+              "type": "text"
+            }
+          ],
+          "body": {
+            "mode": "raw",
+            "raw": "{\n      \"type_update\": \"testinghjkyu\",\n            \"type\": \"testing\",\n            \"query\": \"testing\",\n            \"data\": \"testing\"\n}",
+            "options": {
+              "raw": {
+                "language": "json"
+              }
+            }
+          },
+          "url": {
+            "raw": "http://0.0.0.0:5000/portfolio-management/linked?id=2",
+            "protocol": "http",
+            "host": [
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "port": "5000",
+            "path": [
+              "portfolio-management",
+              "linked"
+            ],
+            "query": [
+              {
+                "key": "id",
+                "value": "2"
+              }
+            ]
+          }
+        },
+        "response": []
+      },
+      {
+        "name": "FetchById",
+        "request": {
+          "auth": {
+            "type": "apikey",
+            "apikey": [
+              {
+                "key": "value",
+                "value": "Token b08d2a5ab1e43847cddebf5362e108c223171d5d",
+                "type": "string"
+              },
+              {
+                "key": "in",
+                "value": "header",
+                "type": "string"
+              },
+              {
+                "key": "key",
+                "value": "Authorization",
+                "type": "string"
+              }
+            ]
+          },
+          "method": "GET",
+          "header": [],
+          "url": {
+            "raw": "http://0.0.0.0:5000/portfolio-management/linked?id=1",
+            "protocol": "http",
+            "host": [
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "port": "5000",
+            "path": [
+              "portfolio-management",
+              "linked"
+            ],
+            "query": [
+              {
+                "key": "id",
+                "value": "1"
+              }
+            ]
+          }
+        },
+        "response": []
+      },
+      {
+        "name": "update",
+        "request": {
+          "auth": {
+            "type": "apikey",
+            "apikey": [
+              {
+                "key": "value",
+                "value": "Token b08d2a5ab1e43847cddebf5362e108c223171d5d",
+                "type": "string"
+              },
+              {
+                "key": "in",
+                "value": "header",
+                "type": "string"
+              },
+              {
+                "key": "key",
+                "value": "Authorization",
+                "type": "string"
+              }
+            ]
+          },
+          "method": "PATCH",
+          "header": [],
+          "body": {
+            "mode": "raw",
+            "raw": "\n\n\n{\n    \"type_update\": \"gdrtg\",\n        \"type\": \"rtghrtg\",\n        \"query\": \"tfhrt\",\n        \"data\": {\"fgh\":\"rytr\"}\n        }",
+            "options": {
+              "raw": {
+                "language": "json"
+              }
+            }
+          },
+          "url": {
+            "raw": "http://0.0.0.0:5000/portfolio-management/linked?id=6",
+            "protocol": "http",
+            "host": [
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "port": "5000",
+            "path": [
+              "portfolio-management",
+              "linked"
+            ],
+            "query": [
+              {
+                "key": "id",
+                "value": "6"
+              }
+            ]
+          }
+        },
+        "response": []
+      },
+      {
+        "name": "Creation",
+        "request": {
+          "auth": {
+            "type": "apikey",
+            "apikey": [
+              {
+                "key": "value",
+                "value": "Token 1c80f68e4730893c404738911cbb805f20c5a6e4",
+                "type": "string"
+              },
+              {
+                "key": "in",
+                "value": "header",
+                "type": "string"
+              },
+              {
+                "key": "key",
+                "value": "Authorization",
+                "type": "string"
+              }
+            ]
+          },
+          "method": "POST",
+          "header": [],
+          "body": {
+            "mode": "raw",
+            "raw": "{\n    \"query\":\"newqueryrjhfkf\"\n}",
+            "options": {
+              "raw": {
+                "language": "json"
+              }
+            }
+          },
+          "url": {
+            "raw": "http://0.0.0.0:8007/portfolio-management/linked",
+            "protocol": "http",
+            "host": [
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "port": "8007",
+            "path": [
+              "portfolio-management",
+              "linked"
+            ]
+          }
+        },
+        "response": []
+      }
+    ]
+  },
+  {
+    "name": "Individual",
+    "item": [
+      {
+        "name": "create",
+        "request": {
+          "auth": {
+            "type": "apikey",
+            "apikey": [
+              {
+                "key": "value",
+                "value": "Token 1c80f68e4730893c404738911cbb805f20c5a6e4",
+                "type": "string"
+              },
+              {
+                "key": "in",
+                "value": "header",
+                "type": "string"
+              },
+              {
+                "key": "key",
+                "value": "Authorization",
+                "type": "string"
+              }
+            ]
+          },
+          "method": "POST",
+          "header": [],
+          "body": {
+            "mode": "raw",
+            "raw": "{\n     \"title\": \"individual tesing 23\",\n        \n            \"expire_on\": \"1714187380123\",\n            \"address\": \"hgkyjk\",\n            \"phone_number\": \"986756757\",\n            \"description\": \"hgjh\"\n}",
+            "options": {
+              "raw": {
+                "language": "json"
+              }
+            }
+          },
+          "url": {
+            "raw": "http://0.0.0.0:8007/portfolio-management/ind",
+            "protocol": "http",
+            "host": [
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "port": "8007",
+            "path": [
+              "portfolio-management",
+              "ind"
+            ]
+          }
+        },
+        "response": []
+      },
+      {
+        "name": "update",
+        "request": {
+          "auth": {
+            "type": "apikey",
+            "apikey": [
+              {
+                "key": "value",
+                "value": "Token b08d2a5ab1e43847cddebf5362e108c223171d5d",
+                "type": "string"
+              },
+              {
+                "key": "in",
+                "value": "header",
+                "type": "string"
+              },
+              {
+                "key": "key",
+                "value": "Authorization",
+                "type": "string"
+              }
+            ]
+          },
+          "method": "PATCH",
+          "header": [],
+          "body": {
+            "mode": "raw",
+            "raw": "{\n \"user_id\": 1,\n            \"title\": \"individual tesing 9\",\n\n            \"address\": \"gedgfeyfewyhfghrefg jghruieg ,nbujhgtuhg jkbhutih jkghtui\",\n            \"phone_number\": \n                \"986756757,7658456489,876857685,89654678964,878975\",\n            \n            \"description\": \"hgjh\",\n            \"share_resource\": [],\n            \"religion\": \"\",\n            \"sect\": \"\"\n\n}",
+            "options": {
+              "raw": {
+                "language": "json"
+              }
+            }
+          },
+          "url": {
+            "raw": "http://0.0.0.0:5000/portfolio-management/ind?portfolio_id=9",
+            "protocol": "http",
+            "host": [
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "port": "5000",
+            "path": [
+              "portfolio-management",
+              "ind"
+            ],
+            "query": [
+              {
+                "key": "portfolio_id",
+                "value": "9"
+              }
+            ]
+          }
+        },
+        "response": []
+      },
+      {
+        "name": "Delete",
+        "request": {
+          "auth": {
+            "type": "apikey",
+            "apikey": [
+              {
+                "key": "value",
+                "value": "Token b08d2a5ab1e43847cddebf5362e108c223171d5d",
+                "type": "string"
+              },
+              {
+                "key": "in",
+                "value": "header",
+                "type": "string"
+              },
+              {
+                "key": "key",
+                "value": "Authorization",
+                "type": "string"
+              }
+            ]
+          },
+          "method": "DELETE",
+          "header": [],
+          "url": {
+            "raw": "http://0.0.0.0:5000/portfolio-management/ind?id=6",
+            "protocol": "http",
+            "host": [
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "port": "5000",
+            "path": [
+              "portfolio-management",
+              "ind"
+            ],
+            "query": [
+              {
+                "key": "id",
+                "value": "6"
+              }
+            ]
+          }
+        },
+        "response": []
+      },
+      {
+        "name": "fetch",
+        "request": {
+          "auth": {
+            "type": "apikey",
+            "apikey": [
+              {
+                "key": "value",
+                "value": "Token 1c80f68e4730893c404738911cbb805f20c5a6e4",
+                "type": "string"
+              },
+              {
+                "key": "in",
+                "value": "header",
+                "type": "string"
+              },
+              {
+                "key": "key",
+                "value": "Authorization",
+                "type": "string"
+              }
+            ]
+          },
+          "method": "GET",
+          "header": [],
+          "url": {
+            "raw": "http://0.0.0.0:8007/portfolio-management/ind?id=1",
+            "protocol": "http",
+            "host": [
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "port": "8007",
+            "path": [
+              "portfolio-management",
+              "ind"
+            ],
+            "query": [
+              {
+                "key": "id",
+                "value": "1"
+              }
+            ]
+          }
+        },
+        "response": []
+      },
+      {
+        "name": "portfolio_pagination",
+        "protocolProfileBehavior": {
+          "disableBodyPruning": true
+        },
+        "request": {
+          "auth": {
+            "type": "apikey",
+            "apikey": [
+              {
+                "key": "value",
+                "value": "Token 1c80f68e4730893c404738911cbb805f20c5a6e4",
+                "type": "string"
+              },
+              {
+                "key": "in",
+                "value": "header",
+                "type": "string"
+              },
+              {
+                "key": "key",
+                "value": "Authorization",
+                "type": "string"
+              }
+            ]
+          },
+          "method": "GET",
+          "header": [],
+          "body": {
+            "mode": "raw",
+            "raw": "",
+            "options": {
+              "raw": {
+                "language": "json"
+              }
+            }
+          },
+          "url": {
+            "raw": "http://0.0.0.0:8007/portfolio-management/portfolio_pagination?type=individual&page=1&item=6",
+            "protocol": "http",
+            "host": [
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "port": "8007",
+            "path": [
+              "portfolio-management",
+              "portfolio_pagination"
+            ],
+            "query": [
+              {
+                "key": "type",
+                "value": "individual"
+              },
+              {
+                "key": "page",
+                "value": "1"
+              },
+              {
+                "key": "item",
+                "value": "6"
+              }
+            ]
+          }
+        },
+        "response": []
+      },
+      {
+        "name": "portfolio_pagination group",
+        "request": {
+          "auth": {
+            "type": "apikey",
+            "apikey": [
+              {
+                "key": "value",
+                "value": "Token b08d2a5ab1e43847cddebf5362e108c223171d5d",
+                "type": "string"
+              },
+              {
+                "key": "in",
+                "value": "header",
+                "type": "string"
+              },
+              {
+                "key": "key",
+                "value": "Authorization",
+                "type": "string"
+              }
+            ]
+          },
+          "method": "GET",
+          "header": [],
+          "url": {
+            "raw": "http://0.0.0.0:8007/portfolio-management/portfolio_pagination?type=group&item=3&page=1",
+            "protocol": "http",
+            "host": [
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "port": "8007",
+            "path": [
+              "portfolio-management",
+              "portfolio_pagination"
+            ],
+            "query": [
+              {
+                "key": "type",
+                "value": "group"
+              },
+              {
+                "key": "item",
+                "value": "3"
+              },
+              {
+                "key": "page",
+                "value": "1"
+              }
+            ]
+          }
+        },
+        "response": []
+      },
+      {
+        "name": "portfolio_pagination_event",
+        "request": {
+          "auth": {
+            "type": "apikey",
+            "apikey": [
+              {
+                "key": "value",
+                "value": "Token b08d2a5ab1e43847cddebf5362e108c223171d5d",
+                "type": "string"
+              },
+              {
+                "key": "in",
+                "value": "header",
+                "type": "string"
+              },
+              {
+                "key": "key",
+                "value": "Authorization",
+                "type": "string"
+              }
+            ]
+          },
+          "method": "GET",
+          "header": [],
+          "url": {
+            "raw": "http://0.0.0.0:5000/portfolio-management/portfolio_pagination?type=event&item=4&page=1",
+            "protocol": "http",
+            "host": [
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "port": "5000",
+            "path": [
+              "portfolio-management",
+              "portfolio_pagination"
+            ],
+            "query": [
+              {
+                "key": "type",
+                "value": "event"
+              },
+              {
+                "key": "item",
+                "value": "4"
+              },
+              {
+                "key": "page",
+                "value": "1"
+              }
+            ]
+          }
+        },
+        "response": []
+      }
+    ]
+  },
+  {
+    "name": "Group",
+    "item": [
+      {
+        "name": "Create",
+        "request": {
+          "auth": {
+            "type": "apikey",
+            "apikey": [
+              {
+                "key": "value",
+                "value": "Token b08d2a5ab1e43847cddebf5362e108c223171d5d",
+                "type": "string"
+              },
+              {
+                "key": "in",
+                "value": "header",
+                "type": "string"
+              },
+              {
+                "key": "key",
+                "value": "Authorization",
+                "type": "string"
+              }
+            ]
+          },
+          "method": "POST",
+          "header": [],
+          "body": {
+            "mode": "raw",
+            "raw": "{\n       \"title\": \"group testing12\",\n        \"expire_on\":\"6734648474839\",\n            \"address\": \"sdffffccccccccccccccccc\",\n            \"phone_number\": \"ccccccccccccccccc\",\n            \"description\": \"cccccccccccccccc\",\n        \"region\":\"jghrugh\",\n        \"details\":\"jhfuerf\"\n}",
+            "options": {
+              "raw": {
+                "language": "json"
+              }
+            }
+          },
+          "url": {
+            "raw": "http://0.0.0.0:5000/portfolio-management/gr",
+            "protocol": "http",
+            "host": [
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "port": "5000",
+            "path": [
+              "portfolio-management",
+              "gr"
+            ]
+          }
+        },
+        "response": []
+      },
+      {
+        "name": "update",
+        "request": {
+          "auth": {
+            "type": "apikey",
+            "apikey": [
+              {
+                "key": "value",
+                "value": "Token b08d2a5ab1e43847cddebf5362e108c223171d5d",
+                "type": "string"
+              },
+              {
+                "key": "in",
+                "value": "header",
+                "type": "string"
+              },
+              {
+                "key": "key",
+                "value": "Authorization",
+                "type": "string"
+              }
+            ]
+          },
+          "method": "PATCH",
+          "header": [],
+          "body": {
+            "mode": "raw",
+            "raw": "",
+            "options": {
+              "raw": {
+                "language": "json"
+              }
+            }
+          },
+          "url": {
+            "raw": "http://0.0.0.0:5000/portfolio-management/gr?portfolio_id=8",
+            "protocol": "http",
+            "host": [
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "port": "5000",
+            "path": [
+              "portfolio-management",
+              "gr"
+            ],
+            "query": [
+              {
+                "key": "portfolio_id",
+                "value": "8"
+              }
+            ]
+          }
+        },
+        "response": []
+      },
+      {
+        "name": "Delete Group",
+        "request": {
+          "auth": {
+            "type": "apikey",
+            "apikey": [
+              {
+                "key": "value",
+                "value": "Token b08d2a5ab1e43847cddebf5362e108c223171d5d",
+                "type": "string"
+              },
+              {
+                "key": "in",
+                "value": "header",
+                "type": "string"
+              },
+              {
+                "key": "key",
+                "value": "Authorization",
+                "type": "string"
+              }
+            ]
+          },
+          "method": "DELETE",
+          "header": [],
+          "url": {
+            "raw": "http://0.0.0.0:5000/portfolio-management/gr?id=8",
+            "protocol": "http",
+            "host": [
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "port": "5000",
+            "path": [
+              "portfolio-management",
+              "gr"
+            ],
+            "query": [
+              {
+                "key": "id",
+                "value": "8"
+              }
+            ]
+          }
+        },
+        "response": []
+      },
+      {
+        "name": "Fetch",
+        "request": {
+          "auth": {
+            "type": "apikey",
+            "apikey": [
+              {
+                "key": "value",
+                "value": "Token b08d2a5ab1e43847cddebf5362e108c223171d5d",
+                "type": "string"
+              },
+              {
+                "key": "in",
+                "value": "header",
+                "type": "string"
+              },
+              {
+                "key": "key",
+                "value": "Authorization",
+                "type": "string"
+              }
+            ]
+          },
+          "method": "GET",
+          "header": [],
+          "url": {
+            "raw": "http://0.0.0.0:5000/portfolio-management/gr?id=11",
+            "protocol": "http",
+            "host": [
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "port": "5000",
+            "path": [
+              "portfolio-management",
+              "gr"
+            ],
+            "query": [
+              {
+                "key": "id",
+                "value": "11"
+              }
+            ]
+          }
+        },
+        "response": []
+      }
+    ]
+  },
+  {
+    "name": "Event",
+    "item": [
+      {
+        "name": "create",
+        "request": {
+          "auth": {
+            "type": "apikey",
+            "apikey": [
+              {
+                "key": "value",
+                "value": "Token 1c80f68e4730893c404738911cbb805f20c5a6e4",
+                "type": "string"
+              },
+              {
+                "key": "in",
+                "value": "header",
+                "type": "string"
+              },
+              {
+                "key": "key",
+                "value": "Authorization",
+                "type": "string"
+              }
+            ]
+          },
+          "method": "POST",
+          "header": [],
+          "body": {
+            "mode": "raw",
+            "raw": "{\n   \"title\": \"this is 14 event\",\n        \n         \n            \"address\": \"Jacaranda Family Club, hgfytrtyr yut6t7 yjhht7, yjut67t,hgftytr ,hgfrty hj6r hjyrtyr ,hgftytyt hfrtyu yhfry6urghftyr\",\n            \"phone_number\": \"033465314623,7866456545,8687678565,76577865789,7675765768\",\n            \"description\": \"Testing Event Portfolio\",\n               \"expire_on\": \"37967897786567\",\n            \"event_date\": \"78977897879\",\n            \"event_type\": \"Rage Party\",\n            \"location\": \"DHA Phase 2 Islamabad\",\n            \"event_details\": \"Testing Event Portfolio\"\n}",
+            "options": {
+              "raw": {
+                "language": "json"
+              }
+            }
+          },
+          "url": {
+            "raw": "http://0.0.0.0:8007/portfolio-management/ev",
+            "protocol": "http",
+            "host": [
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "port": "8007",
+            "path": [
+              "portfolio-management",
+              "ev"
+            ]
+          }
+        },
+        "response": []
+      },
+      {
+        "name": "update",
+        "request": {
+          "auth": {
+            "type": "apikey",
+            "apikey": [
+              {
+                "key": "value",
+                "value": "Token b08d2a5ab1e43847cddebf5362e108c223171d5d",
+                "type": "string"
+              },
+              {
+                "key": "in",
+                "value": "header",
+                "type": "string"
+              },
+              {
+                "key": "key",
+                "value": "Authorization",
+                "type": "string"
+              }
+            ]
+          },
+          "method": "PATCH",
+          "header": [],
+          "body": {
+            "mode": "raw",
+            "raw": "{\"address\":\"abcjhfuyrefge ujrguruhg,jhfgtrt jryt7uyt ujrty7ty\",\n\"phone_number\":\"8645647895,84674567437\"}",
+            "options": {
+              "raw": {
+                "language": "json"
+              }
+            }
+          },
+          "url": {
+            "raw": "http://0.0.0.0:5000/portfolio-management/ev?portfolio_id=10",
+            "protocol": "http",
+            "host": [
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "port": "5000",
+            "path": [
+              "portfolio-management",
+              "ev"
+            ],
+            "query": [
+              {
+                "key": "portfolio_id",
+                "value": "10"
+              }
+            ]
+          }
+        },
+        "response": []
+      },
+      {
+        "name": "Delete Event",
+        "request": {
+          "auth": {
+            "type": "apikey",
+            "apikey": [
+              {
+                "key": "value",
+                "value": "Token b08d2a5ab1e43847cddebf5362e108c223171d5d",
+                "type": "string"
+              },
+              {
+                "key": "in",
+                "value": "header",
+                "type": "string"
+              },
+              {
+                "key": "key",
+                "value": "Authorization",
+                "type": "string"
+              }
+            ]
+          },
+          "method": "DELETE",
+          "header": [],
+          "url": {
+            "raw": "http://0.0.0.0:5000/portfolio-management/ev?id=6",
+            "protocol": "http",
+            "host": [
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "port": "5000",
+            "path": [
+              "portfolio-management",
+              "ev"
+            ],
+            "query": [
+              {
+                "key": "id",
+                "value": "6"
+              }
+            ]
+          }
+        },
+        "response": []
+      },
+      {
+        "name": "fetch",
+        "protocolProfileBehavior": {
+          "disableBodyPruning": true
+        },
+        "request": {
+          "auth": {
+            "type": "apikey",
+            "apikey": [
+              {
+                "key": "value",
+                "value": "Token b08d2a5ab1e43847cddebf5362e108c223171d5d",
+                "type": "string"
+              },
+              {
+                "key": "in",
+                "value": "header",
+                "type": "string"
+              },
+              {
+                "key": "key",
+                "value": "Authorization",
+                "type": "string"
+              }
+            ]
+          },
+          "method": "GET",
+          "header": [],
+          "body": {
+            "mode": "raw",
+            "raw": "",
+            "options": {
+              "raw": {
+                "language": "json"
+              }
+            }
+          },
+          "url": {
+            "raw": "http://0.0.0.0:5000/portfolio-management/ev?id=11",
+            "protocol": "http",
+            "host": [
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "port": "5000",
+            "path": [
+              "portfolio-management",
+              "ev"
+            ],
+            "query": [
+              {
+                "key": "id",
+                "value": "11"
+              }
+            ]
+          }
+        },
+        "response": []
+      }
+    ]
+  },
+  {
+    "name": "Attach",
+    "item": [
+      {
+        "name": "attach_keybase",
+        "request": {
+          "auth": {
+            "type": "apikey",
+            "apikey": [
+              {
+                "key": "value",
+                "value": "Token 1c80f68e4730893c404738911cbb805f20c5a6e4",
+                "type": "string"
+              },
+              {
+                "key": "in",
+                "value": "header",
+                "type": "string"
+              },
+              {
+                "key": "key",
+                "value": "Authorization",
+                "type": "string"
+              }
+            ]
+          },
+          "method": "POST",
+          "header": [],
+          "body": {
+            "mode": "raw",
+            "raw": "{\n    \"keybase_id\":\"1\",\n    \"portfolio_id\":\"5\",\n    \"portfolio_type\":\"individual\",\n    \"operation\":\"attach\"\n}",
+            "options": {
+              "raw": {
+                "language": "json"
+              }
+            }
+          },
+          "url": {
+            "raw": "http://0.0.0.0:8007/portfolio-management/attach_keybase",
+            "protocol": "http",
+            "host": [
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "port": "8007",
+            "path": [
+              "portfolio-management",
+              "attach_keybase"
+            ]
+          }
+        },
+        "response": []
+      },
+      {
+        "name": "attach_target",
+        "request": {
+          "auth": {
+            "type": "apikey",
+            "apikey": [
+              {
+                "key": "value",
+                "value": "Token 1c80f68e4730893c404738911cbb805f20c5a6e4",
+                "type": "string"
+              },
+              {
+                "key": "in",
+                "value": "header",
+                "type": "string"
+              },
+              {
+                "key": "key",
+                "value": "Authorization",
+                "type": "string"
+              }
+            ]
+          },
+          "method": "POST",
+          "header": [],
+          "body": {
+            "mode": "raw",
+            "raw": "{\n    \"target_id\":\"1\",\n      \"target_type\":\"keybase\",\n     \"portfolio_id\":\"1\",\n    \"portfolio_type\":\"individual\",\n    \"operation\":\"attach\"\n   \n}",
+            "options": {
+              "raw": {
+                "language": "json"
+              }
+            }
+          },
+          "url": {
+            "raw": "http://0.0.0.0:8007/portfolio-management/attach_target",
+            "protocol": "http",
+            "host": [
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "port": "8007",
+            "path": [
+              "portfolio-management",
+              "attach_target"
+            ]
+          }
+        },
+        "response": []
+      },
+      {
+        "name": "link_data",
+        "request": {
+          "auth": {
+            "type": "apikey",
+            "apikey": [
+              {
+                "key": "value",
+                "value": "Token 1c80f68e4730893c404738911cbb805f20c5a6e4",
+                "type": "string"
+              },
+              {
+                "key": "in",
+                "value": "header",
+                "type": "string"
+              },
+              {
+                "key": "key",
+                "value": "Authorization",
+                "type": "string"
+              }
+            ]
+          },
+          "method": "POST",
+          "header": [],
+          "body": {
+            "mode": "raw",
+            "raw": "{\n    \"data_id\":\"2\",\n    \"portfolio_id\":\"3\",\n    \"portfolio_type\":\"individual\",\n    \"operation\":\"attach\"\n\n}",
+            "options": {
+              "raw": {
+                "language": "json"
+              }
+            }
+          },
+          "url": {
+            "raw": "http://0.0.0.0:8007/portfolio-management/link_data",
+            "protocol": "http",
+            "host": [
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "port": "8007",
+            "path": [
+              "portfolio-management",
+              "link_data"
+            ]
+          }
+        },
+        "response": []
+      },
+      {
+        "name": "attach_portfolio",
+        "request": {
+          "auth": {
+            "type": "apikey",
+            "apikey": [
+              {
+                "key": "value",
+                "value": "Token Token 1c80f68e4730893c404738911cbb805f20c5a6e4",
+                "type": "string"
+              },
+              {
+                "key": "in",
+                "value": "header",
+                "type": "string"
+              },
+              {
+                "key": "key",
+                "value": "Authorization",
+                "type": "string"
+              }
+            ]
+          },
+          "method": "POST",
+          "header": [],
+          "body": {
+            "mode": "raw",
+            "raw": "{\n    \"portfolio_id_src\":\"\",\n    \"portfolio_type_src\":\"\",\n\n}",
+            "options": {
+              "raw": {
+                "language": "json"
+              }
+            }
+          },
+          "url": {
+            "raw": "http://0.0.0.0:8007/portfolio-management/attach_target",
+            "protocol": "http",
+            "host": [
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "port": "8007",
+            "path": [
+              "portfolio-management",
+              "attach_target"
+            ]
+          }
+        },
+        "response": []
+      },
+      {
+        "name": "all_portfolio",
+        "request": {
+          "method": "GET",
+          "header": []
+        },
+        "response": []
+      }
+    ]
+  },
+  {
+    "name": "Report",
+    "item": [
+      {
+        "name": "Portfolio_report",
+        "request": {
+          "method": "GET",
+          "header": []
+        },
+        "response": []
+      }
+    ]
+  }
+]
